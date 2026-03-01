@@ -1,5 +1,4 @@
-import { formatCurrency } from "../utils/formatters";
-
+import { formatCurrency } from "./formatter.js";
 export default function SummaryCards({ transactions }) {
   const balance = transactions.reduce((acc, t) => 
     acc + (t.type === "income" ? t.amount : -t.amount), 0);
@@ -73,4 +72,5 @@ const styles = {
     marginTop: 6, 
     fontFamily: "'IBM Plex Mono', monospace" 
   }
+
 };
