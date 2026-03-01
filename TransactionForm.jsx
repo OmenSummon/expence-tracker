@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { CATEGORIES } from "../constants";
-import { generateId } from "../utils/generators";
+import { CATEGORIES } from "./cons.js";
+import { generateId } from "./generators";
 
 export default function TransactionForm({ onAdd }) {
   const [form, setForm] = useState({ 
@@ -171,4 +171,5 @@ const styles = {
     marginTop: 10, 
     fontFamily: "'IBM Plex Mono', monospace" 
   }
+
 };
