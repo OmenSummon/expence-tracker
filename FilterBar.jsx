@@ -1,5 +1,4 @@
-import { CATEGORIES } from "../constants";
-
+import { CATEGORIES } from "./cons.js";
 export default function FilterBar({ filter, onFilterChange }) {
   return (
     <div style={styles.filterRow}>
@@ -52,4 +51,5 @@ const styles = {
     borderColor: "#16a34a", 
     color: "#4ade80" 
   }
+
 };
