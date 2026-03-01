@@ -1,5 +1,5 @@
-import { CATEGORY_COLORS } from "../constants";
-import { formatCurrency } from "./formatters";
+import { CATEGORY_COLORS } from "./cons.js";
+import { formatCurrency } from ""./formatter.js";
 
 export default function TransactionItem({ tx, onDelete, index }) {
   return (
@@ -94,3 +94,4 @@ const styles = {
   }
 
 };
+
