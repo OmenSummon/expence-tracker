@@ -10,8 +10,6 @@ import TransactionForm from "./TransactionForm";
 import FilterBar from "./FilterBar";
 import TransactionList from "./TransactionList";
 import Toast from "./Toast";
-import InterviewSection from "./InterviewSection";
-
 export default function SmartExpenseTracker() {
  const [transactions, setTransactions] = useLocalStorage("sxp_transactions", []);
  const { toast, setToast } = useToast(2500);
@@ -71,3 +69,4 @@ export default function SmartExpenseTracker() {
  </div>
  );
 }
+
