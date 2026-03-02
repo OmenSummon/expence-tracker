@@ -64,9 +64,9 @@ export default function SmartExpenseTracker() {
  onDelete={handleDeleteTransaction}
  />
  </section>
- <InterviewSection />
  </div>
  </div>
  );
 }
+
 
