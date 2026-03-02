@@ -8,7 +8,6 @@ export default function Header() {
         </h1>
         <p style={styles.subtitle}>Know where every rupee goes</p>
       </div>
-      <div style={styles.badge}>useState · useEffect · localStorage</div>
     </header>
   );
 }
@@ -46,4 +45,5 @@ const styles = {
     fontFamily: "'IBM Plex Mono', monospace", 
     whiteSpace: "nowrap" 
   }
+
 };
